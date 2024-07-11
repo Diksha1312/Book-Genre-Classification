@@ -88,7 +88,7 @@ jobs:
          
       # - name: Stop and remove container if running
       #   run: |
-      #    docker ps -q --filter "name=genre-classfication" | grep -q . && docker stop genre-classfication && docker rm -fv book-env
+      #    docker ps -q --filter "name=genre-classification" | grep -q . && docker stop genre-classification && docker rm -fv book-env
        
       - name: Run Docker Image to serve users
         run: |
